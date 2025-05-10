@@ -1,0 +1,18 @@
+{
+  "name": "poc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --experimental-specifier-resolution=node --config ./mocha.config.js --timeout 5000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "mocha": "^11.2.2",
+    "nostr-tools": "^2.12.0",
+    "uuid": "^11.1.0"
+  }
+}
